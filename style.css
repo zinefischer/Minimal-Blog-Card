@@ -1,0 +1,81 @@
+:root {
+    --button-color-font: #883AE1;
+    --button-color: #E6D6FC;
+    --body-background: #E5EAF0;
+    --idontknow-color: #FAFAF9;
+    --card-color: #FFFFFF;
+    --title-color: #20293A;
+    --content-color: #6C727F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--body-background);
+}
+
+.card {
+    width: 368px;
+    display: flex;
+    flex-direction: column;
+    margin: 164px;
+    padding: 16px;
+    padding-bottom: 20px;
+    border-radius: 1rem;
+    background-color: var(--card-color);
+}
+
+.img {
+    height: 152px;
+    width: 336px;
+    border-radius: 1rem;
+    margin-bottom: 16px;
+}
+
+.button {
+    width: 25%;
+    font-size: .625rem;
+    font-family: "Sora", sans-serif;
+    background-color: var(--button-color);
+    color: var(--button-color-font);
+    border-radius: 1rem;
+    border: 0;
+    padding: 6px;
+    font-weight: 800;
+    margin-bottom: 16px;
+
+}
+
+.title {
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+    font-family: "Sora", sans-serif;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.content {
+    font-size: .75rem;
+    margin-bottom: 20px;
+    font-family: "Sora", sans-serif;
+    color: var(--content-color);
+}
+
+.autor {
+    font-size: .625rem;
+    font-family: "Sora", sans-serif;
+    padding-top: 20px;
+    border-top: 2px solid var(--body-background);
+    color: var(--content-color);
+}
+
+/* LINK ORIGINAL */
+/* https://devchallenges.io/editor/solution/12852 */
